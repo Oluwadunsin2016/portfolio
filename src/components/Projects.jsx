@@ -18,7 +18,7 @@ const Projects = () => {
 
   return (
     <>
-      <Container maxW="7xl" overflow="hidden" px={ { base: 0, md: 4 } }>
+      <Container maxW="7xl" overflow="hidden" px={ { base: 3, md: 4 } }>
         <SimpleGrid columns={ { base: 1, md: 2, lg: 3 } } spacing={ { base: 4, lg: 4 } } overflow="hidden">
           {
             projects.map((project) => (

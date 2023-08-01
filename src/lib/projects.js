@@ -41,8 +41,8 @@ let projects = [
     title: 'TIC TAC TOE',
     image: '/images/projects/tic_tac_toe.png',
     description: `A lovable tic tac toe game. Built with HTML, CSS and JavaScript`,
-    web_link: 'https://fitness-css.vercel.app/',
-    github_link: 'https://github.com/Oluwadunsin2016/fitness-css'
+    web_link: 'https://my-tictactoe-game.vercel.app/',
+    github_link: 'https://github.com/Oluwadunsin2016/my-tictactoe-game'
   },
   {
     id: 'movieApp',
@@ -60,7 +60,7 @@ let projects = [
     image: '/images/projects/gallery.png',
     description: `A photo gallery application that allows you to save and view your pictures so that you won't loose them. Built with React Js and tailwind CSS`,
     web_link: 'https://gallery-gamma-three.vercel.app/',
-    github_link: 'https://github.com/Oluwadunsin2016/Netflix_2'
+    github_link: 'https://github.com/Oluwadunsin2016/Gallery'
   },
   {
     id: 'ecommerce',
@@ -69,7 +69,7 @@ let projects = [
     image: '/images/projects/ecommerce.png',
     description: `AlexisCom provides you with the latest products with cheapest prices, shop with them and enjoy the benefits. No regrets. Built with React Js`,
     web_link: 'https://alexiscom.netlify.app/',
-    github_link: 'https://github.com/Oluwadunsin2016/Gallery'
+    github_link: 'https://github.com/Oluwadunsin2016/Alexiscom_client'
   },
   {
     id: 'chatApp',

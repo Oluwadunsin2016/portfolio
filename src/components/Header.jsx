@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Container, Flex, Text, useColorMode, useDisclosure } from "@chakra-ui/react";
+import { Avatar, Box, Button, Container, Flex, Image, Text, useColorMode, useDisclosure } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { HiArrowRight } from "react-icons/hi";
 import ContactModal from "./ContactModal.jsx";
@@ -45,9 +45,17 @@ const Header = () => {
                   </Button>
                 </Flex>
               </Box>
+              <Image
+                display={ { base: 'block', md: 'none' } }
+                mx='auto'
+                borderRadius={5}
+                width={300}
+                height={400}
+                src="/images/profile.jpg" alt="Oluwagbemiga Stephen"
+              />
               <Avatar
                 display={ { base: 'none', md: 'block' } }
-                width={ { base: '150px', lg: '230px' } } height={ { base: '150px', lg: '230px' } }
+                width={ { base: '200px', lg: '280px' } } height={ { base: '200px', lg: '280px' } }
                 src="/images/profile.jpg" alt="Oluwagbemiga Stephen"
               />
             </Flex>

@@ -79,7 +79,7 @@ const ProjectDetails = ({ project, isOpen, onClose }) => {
                           Close
                         </Button>
                       </Box>
-                       <div style={{display:'flex', justifyContent:'space-between', width:'100%', padding:'20px'}}>
+                       <Box display={'flex'} justifyContent={'space-between'} m={4}>
                             <Button
                               onClick={ toGitHub } rightIcon={ <FiGithub/> }
                               rounded="30" px="5" variant="outline" size={ { base: 'sm', md: 'md' } }
@@ -101,7 +101,7 @@ const ProjectDetails = ({ project, isOpen, onClose }) => {
                             >
                               Website
                             </Button>
-                            </div>
+                            </Box>
                       <Flex direction="column" align="flex-start" py={ { base: 8, md: 8 } } px={ { base: 6, md: 20 } }>
                         <Flex align="center" justify="space-between" w="full">
                           <Box>
